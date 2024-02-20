@@ -1,0 +1,11 @@
+.nav-pills .nav-link.active{
+    background-color: #595959;
+}
+
+.nav-link{
+    color: black;
+}
+
+.img-w{
+    width: 16.68%;
+}
