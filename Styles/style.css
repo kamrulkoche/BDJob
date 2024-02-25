@@ -9,3 +9,10 @@
 .img-w{
     width: 16.68%;
 }
+
+.zoom-on-hover {
+    transition: transform 0.3s ease;
+  }
+.zoom-on-hover:hover {
+transform: scale(1.1);
+}
