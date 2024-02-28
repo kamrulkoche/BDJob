@@ -1669,128 +1669,146 @@
 
             <!-- Employment part -->
             <div class="tab-pane fade" id="pills-employment" role="tabpanel" aria-labelledby="pills-employment-tab"
-            tabindex="0">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Employment History
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <div class="container">
-                                <div class="row justify-content-lg-between">
-                                    <div class="col-12">
-                                        <div class="">
-                                            <div class="text-center" id="experienceSummary" >
-                                                <i class="fa-solid fa-inbox fa-2xl " style="color: #2a8335;"></i>
-                                                <p class="mt-4">Currently no data exists! Please click on the
-                                                    following <br>
-                                                    button to add your employment information.</p>
-                                            </div>
-
-                                            <form id="employmentHistory" style="display: none;">
-
-                                                <div class="p-1 mb-1">
-                                                    <h5 class="fw-bolder">Add Experience</h5>
+                tabindex="0">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Employment History
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="container">
+                                    <div class="row justify-content-lg-between">
+                                        <div class="col-12">
+                                            <div class="">
+                                                <div class="text-center" id="experienceSummary">
+                                                    <i class="fa-solid fa-inbox fa-2xl " style="color: #2a8335;"></i>
+                                                    <p class="mt-4">Currently no data exists! Please click on the
+                                                        following <br>
+                                                        button to add your employment information.</p>
                                                 </div>
-                                                <div class="row mb-3">
-                                                  <div class="col-md-6">
-                                                    <label for="Company Name" class="form-label">Level of Education</label>
-                                                    <input type="text" class="form-control" id="nameOfcompany"  >
-                                                    
-                                                    
-                                                  </div>
-                                                  <div class="col-md-6">
-                                                    <label for="examTitle" class="form-label">Exam/Degree Title</label>
-                                                    <input type="text" class="form-control" id="companyBusiness"  >
-                                                    
-                                                  </div>
-                                                  
-                                                </div>
-                                            
-                                                <div class="row mb-3">
-                                                  <div class="col-md-6">
-                                                    <label for="designation" class="form-label">Designation</label>
-                                                    <input type="text" class="form-control" id="designation">
-                                                  </div>
-                                                  <div class="col-md-6">
-                                                    <label for="department" class="form-label">Department</label>
-                                                    <input type="text" class="form-control" id="department">
-                                                    <!-- <select class="form-select" id="board">
+
+                                                <form id="employmentHistory" style="display: none;">
+
+                                                    <div class="p-1 mb-1">
+                                                        <h5 class="fw-bolder">Add Experience</h5>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-6">
+                                                            <label for="Company Name" class="form-label">Level of
+                                                                Education</label>
+                                                            <input type="text" class="form-control" id="nameOfcompany">
+
+
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="examTitle" class="form-label">Exam/Degree
+                                                                Title</label>
+                                                            <input type="text" class="form-control"
+                                                                id="companyBusiness">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-6">
+                                                            <label for="designation"
+                                                                class="form-label">Designation</label>
+                                                            <input type="text" class="form-control" id="designation">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="department"
+                                                                class="form-label">Department</label>
+                                                            <input type="text" class="form-control" id="department">
+                                                            <!-- <select class="form-select" id="board">
                                                       <option selected>Select</option>
                                                       <option value="1">Board 1</option>
                                                       <option value="2">Board 2</option>
                                                       <option value="3">Board 3</option>
                                                     </select> -->
-                                                  </div>
-                                                </div>
-                                            
-                                                <div class="row mb-3">
-                                                    <div class="col-md-12">
-                                                      <label for="employmentPeriod" class="form-label">Employment Period</label>
-                                                      <div class="d-flex gap-3">
-                                                        <div class="col-md-6">
-                                                          <input type="date" class="form-control" id="startDate" >
-                                                          <div class="form-check mt-2">
-                                                            <input class="form-check-input" type="checkbox" id="currentlyWorking">
-                                                            <label class="form-check-label" for="currentlyWorking">Currently Working</label>
-                                                          </div>
-                                                          
                                                         </div>
-                                                        <div class="col-md-6">
-                                                          <input type="date" class="form-control" id="endDate" >
-                                                        </div>
-                                                        
-                                                        
-                                                      </div>
-                                            
-                                                      
-                                                      
                                                     </div>
-                                                    <!-- <div class="col-md-6">
+
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-12">
+                                                            <label for="employmentPeriod" class="form-label">Employment
+                                                                Period</label>
+                                                            <div class="d-flex gap-3">
+                                                                <div class="col-md-6">
+                                                                    <input type="date" class="form-control"
+                                                                        id="startDate">
+                                                                    <div class="form-check mt-2">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                            id="currentlyWorking">
+                                                                        <label class="form-check-label"
+                                                                            for="currentlyWorking">Currently
+                                                                            Working</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input type="date" class="form-control"
+                                                                        id="endDate">
+                                                                </div>
+
+
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <!-- <div class="col-md-6">
                                                       <label for="endDate" class="form-label"></label>
                                                       <input type="date" class="form-control" id="endDate" >
                                                       
                                                     </div> -->
-                                                    
-                                                  </div>
-                                            
-                                                <div class="row mb-3">
-                                                  <div class="col-md-12">
-                                                    <label for="instituteName" class="form-label">Institute Name</label>
-                                                    <textarea rows="4" class="form-control" id="instituteName"></textarea>
-                                                    
-                                                  </div>
-                                                </div>
-                                            
-                                                
-                                            
-                                                  <div class="row mb-3">
-                                                    <div class="col-md-12">
-                                                      <label for="companyLocation" class="form-label">Company Location</label>
-                                                      <input type="text" class="form-control" id="companyLocation" >
-                                                      
+
                                                     </div>
-                                                    
-                                                  </div>
-                                            
-                                                <!-- Add the rest of the form fields here -->
-                                                <div class="row p-3">
-                                                  <div class="col-md-12">
-                                                
-                                                      <button type="submit" class="btn btn-success">Save</button>
-                                                      <button type="button" class="btn btn-secondary" id="cancelHistorybtn">Cancel</button>
-                                                  </div>
+
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-12">
+                                                            <label for="instituteName" class="form-label">Institute
+                                                                Name</label>
+                                                            <textarea rows="4" class="form-control"
+                                                                id="instituteName"></textarea>
+
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-12">
+                                                            <label for="companyLocation" class="form-label">Company
+                                                                Location</label>
+                                                            <input type="text" class="form-control"
+                                                                id="companyLocation">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <!-- Add the rest of the form fields here -->
+                                                    <div class="row p-3">
+                                                        <div class="col-md-12">
+
+                                                            <button type="submit" class="btn btn-success">Save</button>
+                                                            <button type="button" class="btn btn-secondary"
+                                                                id="cancelHistorybtn">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div class="zoom-on-hover d-flex justify-content-center"
+                                                    id="addEmploymentHistorybtn" type="button">
+                                                    <h6 class="text-success border border-3 border-success mx-5 py-2 ">
+                                                        <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
+                                                        Add Experience (If Required)</ </div>
                                                 </div>
-                                              </form>
-                                            <div class="zoom-on-hover d-flex justify-content-center" id="addEmploymentHistorybtn" type="button">
-                                                <h6 class="text-success border border-3 border-success mx-5 py-2 ">
-                                                    <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
-                                                    Add Experience (If Required)</ </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1798,8 +1816,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="accordion-item">
+                    <!-- <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -1835,232 +1852,75 @@
                     </div>
                 </div> -->
 
+                </div>
             </div>
-        </div>
 
             <!-- Other Information part -->
             <div class="tab-pane fade" id="pills-information" role="tabpanel" aria-labelledby="pills-information-tab"
-            tabindex="0">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Skill
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <div class="row justify-content-lg-between mb-5">
-                                <div class="col-12">
-                                    <div class="text-center">
-                                        <div class="">
-                                            <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
-                                            <p class="mt-4">
-                                                Currently no data exists! Please click on the following button to
-                                                add your skill.</p>
-                                        </div>
-                                        <div class="d-flex justify-content-center">
-                                            <button
-                                                class="text-success border border-3 border-success py-2 px-3 w-auto bg-white ">
-                                                <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
-                                                Add Skill
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-lg-between mb-5">
-                                <div class="col-12">
-                                    <div class="text-center">
-                                        <div class="">
-                                            <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
-                                            <p class="mt-4">
-                                                Currently no data exists! Please click on the following button to
-                                                add your Skill <br> Description.</p>
-                                        </div>
-                                        <div class="d-flex justify-content-center">
-                                            <button
-                                                class="text-success border border-3 border-success py-2 px-3 w-auto bg-white ">
-                                                <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
-                                                Add Skill Description
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-lg-between mb-5">
-                                <div class="col-12">
-                                    <div class="text-center">
-                                        <div class="">
-                                            <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
-                                            <p class="mt-4">
-                                                Currently no data exists! Please click on the following button to
-                                                add your <br>Extracurricular Activities.</p>
-                                        </div>
-                                        <div class="d-flex justify-content-center">
-                                            <button
-                                                class="text-success border border-3 border-success py-2 px-3 w-auto bg-white ">
-                                                <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
-                                                Add Extracurricular Activities
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                tabindex="0">
+                <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Language Proficiency
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Skill
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="row justify-content-lg-between mb-5">
                                     <div class="col-12">
-                                        <div class="">
-                                            <div class="text-center" id="languageSummary">
+                                        <div class="text-center">
+                                            <div class="">
                                                 <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
                                                 <p class="mt-4">
-                                                    Currently no data exists! Please click on the following button
-                                                    to add your <br>language proficiency.</p>
+                                                    Currently no data exists! Please click on the following button to
+                                                    add your skill.</p>
                                             </div>
-
-                                            <form id="languageAdd" style="display: none;">
-                                                <div class="p-1 mb-1">
-                                                    <h5 class="fw-bolder">Language </h5>
-                                                </div>
-                                                <div class="row mb-3">
-                                                  <div class="col-md-6">
-                                                      <label for="language" class="form-label">Language</label>
-                                                      <input type="text" class="form-control" id="language" placeholder="Enter Language">
-                                                  </div>
-                                          
-                                                  <div class="col-md-6">
-                                                    <label for="reading" class="form-label">Reading</label>
-                                                    <select class="form-select" id="reading">
-                                                      <option selected>Select</option>
-                                                      <option value="beginner">Beginner</option>
-                                                      <option value="intermediate">Intermediate</option>
-                                                      <option value="advanced">Advanced</option>
-                                                      <option value="fluent">Fluent</option>
-                                                    </select>
-                                                  </div>
-                                                  
-                                                </div>
-                                          
-                                                <div class="row mb-3">
-                                                  <div class="col-md-6">
-                                                    <label for="writing" class="form-label">Writing</label>
-                                                    <select class="form-select" id="writing">
-                                                      <option selected>Select</option>
-                                                      <option value="beginner">Beginner</option>
-                                                      <option value="intermediate">Intermediate</option>
-                                                      <option value="advanced">Advanced</option>
-                                                      <option value="fluent">Fluent</option>
-                                                    </select>
-                                                  </div>
-                                                  <div class="col-md-6">
-                                                    <label for="speaking" class="form-label">Speaking</label>
-                                                    <select class="form-select" id="speaking">
-                                                      <option selected>Select</option>
-                                                      <option value="beginner">Beginner</option>
-                                                      <option value="intermediate">Intermediate</option>
-                                                      <option value="advanced">Advanced</option>
-                                                      <option value="fluent">Fluent</option>
-                                                    </select>
-                                                  </div>
-                                                  
-                                                </div>
-                                                
-                                                
-                                                <div class="row p-2">
-                                                  <div class="col-md-12">
-                                                
-                                                      <button type="submit" class="btn btn-success">Save</button>
-                                                      <button type="button" class="btn btn-secondary" id="cancelbtn">Cancel</button>
-                                                  </div>
-                                                </div>
-                                              </form>
-                                            <div class="d-flex justify-content-center" >
-                                                <button
-                                                    class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover" id="addLanguagebtn">
-                                                    <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
-                                                    Add language
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Link Accounts
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="row justify-content-lg-between mb-5">
-                                    <div class="col-12">
-                                        <div class="">
-                                            <div class="text-center" id="accountSummary">
-                                                <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
-                                                <p class="mt-4">
-                                                    There is currently no data! To add your Link, kindly click the
-                                                    following button. <br>You can add maximum three links.</p>
-                                            </div>
-                                            
-                                            <form id="accountAdd" style="display: none;">
-                                                <div class="p-1 mb-1">
-                                                    <h5 class="fw-bolder">Account Link </h5>
-                                                </div>
-                                                <div class="row mb-3">
-                                                  
-                                                  <div class="col-md-4">
-                                                    <label for="acount" class="form-label">Choose Account</label>
-                                                    <select class="form-select" id="account">
-                                                      <option selected>Facebook</option>
-                                                      <option value="beginner">LinkedIn</option>
-                                                      <option value="intermediate">GitHub</option>
-                                                      <option value="advanced">YouTube</option>
-                                                      <option value="fluent">Others</option>
-                                                    </select>
-                                                  </div>
-
-                                                  <div class="col-md-8">
-                                                    <label for="url" class="form-label">URL</label>
-                                                    <input type="text" class="form-control" id="url" placeholder="Enter URL">
-                                                  </div>
-                                        
-                                                  
-                                                </div>
-                                                
-                                                
-                                                <div class="row p-2">
-                                                  <div class="col-md-12">
-                                                
-                                                      <button type="submit" class="btn btn-success">Save</button>
-                                                      <button type="button" class="btn btn-secondary" id="canceladdbtn">Cancel</button>
-                                                  </div>
-                                                </div>
-                                              </form>
-                                           
-
                                             <div class="d-flex justify-content-center">
                                                 <button
-                                                    class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover" id="linkAccountbtn">
+                                                    class="text-success border border-3 border-success py-2 px-3 w-auto bg-white ">
                                                     <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
-                                                    Add Link
+                                                    Add Skill
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-lg-between mb-5">
+                                    <div class="col-12">
+                                        <div class="text-center">
+                                            <div class="">
+                                                <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
+                                                <p class="mt-4">
+                                                    Currently no data exists! Please click on the following button to
+                                                    add your Skill <br> Description.</p>
+                                            </div>
+                                            <div class="d-flex justify-content-center">
+                                                <button
+                                                    class="text-success border border-3 border-success py-2 px-3 w-auto bg-white ">
+                                                    <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
+                                                    Add Skill Description
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-lg-between mb-5">
+                                    <div class="col-12">
+                                        <div class="text-center">
+                                            <div class="">
+                                                <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
+                                                <p class="mt-4">
+                                                    Currently no data exists! Please click on the following button to
+                                                    add your <br>Extracurricular Activities.</p>
+                                            </div>
+                                            <div class="d-flex justify-content-center">
+                                                <button
+                                                    class="text-success border border-3 border-success py-2 px-3 w-auto bg-white ">
+                                                    <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
+                                                    Add Extracurricular Activities
                                                 </button>
                                             </div>
                                         </div>
@@ -2068,105 +1928,282 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                References
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="row justify-content-lg-between mb-5">
-                                    <div class="col-12">
-                                        <div class="">
-                                            <div class="text-center" id="referenceSummary">
-                                                <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
-                                                <p class="mt-4">
-                                                    Currently no data exists! Please click on the following button
-                                                    to add your <br>reference.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Language Proficiency
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row justify-content-lg-between mb-5">
+                                        <div class="col-12">
+                                            <div class="">
+                                                <div class="text-center" id="languageSummary">
+                                                    <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
+                                                    <p class="mt-4">
+                                                        Currently no data exists! Please click on the following button
+                                                        to add your <br>language proficiency.</p>
+                                                </div>
+
+                                                <form id="languageAdd" style="display: none;">
+                                                    <div class="p-1 mb-1">
+                                                        <h5 class="fw-bolder">Language </h5>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-6">
+                                                            <label for="language" class="form-label">Language</label>
+                                                            <input type="text" class="form-control" id="language"
+                                                                placeholder="Enter Language">
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <label for="reading" class="form-label">Reading</label>
+                                                            <select class="form-select" id="reading">
+                                                                <option selected>Select</option>
+                                                                <option value="beginner">Beginner</option>
+                                                                <option value="intermediate">Intermediate</option>
+                                                                <option value="advanced">Advanced</option>
+                                                                <option value="fluent">Fluent</option>
+                                                            </select>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-6">
+                                                            <label for="writing" class="form-label">Writing</label>
+                                                            <select class="form-select" id="writing">
+                                                                <option selected>Select</option>
+                                                                <option value="beginner">Beginner</option>
+                                                                <option value="intermediate">Intermediate</option>
+                                                                <option value="advanced">Advanced</option>
+                                                                <option value="fluent">Fluent</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="speaking" class="form-label">Speaking</label>
+                                                            <select class="form-select" id="speaking">
+                                                                <option selected>Select</option>
+                                                                <option value="beginner">Beginner</option>
+                                                                <option value="intermediate">Intermediate</option>
+                                                                <option value="advanced">Advanced</option>
+                                                                <option value="fluent">Fluent</option>
+                                                            </select>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                    <div class="row p-2">
+                                                        <div class="col-md-12">
+
+                                                            <button type="submit" class="btn btn-success">Save</button>
+                                                            <button type="button" class="btn btn-secondary"
+                                                                id="cancelbtn">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div class="d-flex justify-content-center">
+                                                    <button
+                                                        class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover"
+                                                        id="addLanguagebtn">
+                                                        <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
+                                                        Add language
+                                                    </button>
+                                                </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Link Accounts
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row justify-content-lg-between mb-5">
+                                        <div class="col-12">
+                                            <div class="">
+                                                <div class="text-center" id="accountSummary">
+                                                    <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
+                                                    <p class="mt-4">
+                                                        There is currently no data! To add your Link, kindly click the
+                                                        following button. <br>You can add maximum three links.</p>
+                                                </div>
 
-                                            <form class="" id="referenceAdd" style="display: none;">
-                                                <div class="p-1 mb-1">
-                                                    <h5 class="fw-bolder">Reference </h5>
-                                                </div>
-                                                <div class="row mb-3">
-                                                  <div class="col-md-6">
-                                                    <label for="name" class="form-label">Name</label>
-                                                    <input type="text" class="form-control" id="name" placeholder="Enter Name">
-                                                  </div>
-                                                  <div class="col-md-6">
-                                                    <label for="designation" class="form-label">Designation</label>
-                                                    <input type="text" class="form-control" id="designation" placeholder="Enter Designation">
-                                                  </div>
-                                                </div>
-                                                <div class="row mb-3">
-                                                  <div class="col-md-6">
-                                                    <label for="organization" class="form-label">Organization</label>
-                                                    <input type="text" class="form-control" id="organization" placeholder="Enter Organization">
-                                                  </div>
-                                                  <div class="col-md-6">
-                                                    <label for="email" class="form-label">Email</label>
-                                                    <input type="email" class="form-control" id="email" placeholder="Enter Email">
-                                                  </div>
-                                                </div>
-                                                <div class="row mb-3">
-                                                  <div class="col-md-6">
-                                                    <label for="relation" class="form-label">Relation</label>
-                                                    <select class="form-select" id="relation">
-                                                      <option selected>Relative</option>
-                                                      <option value="father">Family Friend</option>
-                                                      <option value="mother">Academic</option>
-                                                      <option value="sibling">Professional</option>
-                                                      <option value="spouse">Others</option>
-                                                      <!-- Add more options as needed -->
-                                                    </select>
-                                                  </div>
-                                                  <div class="col-md-6">
-                                                    <label for="mobile" class="form-label">Mobile</label>
-                                                    <input type="text" class="form-control" id="mobile" placeholder="Enter Mobile Number">
-                                                  </div>
-                                                  
-                                                </div>
-                                                <div class="row mb-3">
-                                                  
-                                                  <div class="col-md-6">
-                                                    <label for="phoneOff" class="form-label">Phone (Off)</label>
-                                                    <input type="text" class="form-control" id="phoneOff" placeholder="Enter Office Phone Number">
-                                                  </div>
-                                          
-                                                  <div class="col-md-6">
-                                                    <label for="phoneRes" class="form-label">Phone (Res)</label>
-                                                    <input type="text" class="form-control" id="phoneRes" placeholder="Enter Residential Phone Number">
-                                                  </div>
-                                                </div>
-                                                <div class="row mb-3">
-                                                  
-                                                  <div class="col-md-6">
-                                                    <label for="address" class="form-label">Address</label>
-                                                    <textarea type="text" class="form-control" id="address" rows="3" placeholder="Enter Address"></textarea>
-                                                  </div>
-                                                </div>
-                                                <!-- Add the rest of the form fields here -->
-                                                <div class="row p-1">
-                                                  <div class="col-md-12">
-                                                
-                                                      <button type="submit" class="btn btn-success">Save</button>
-                                                      <button type="button" class="btn btn-secondary" id="referanceCancelBtn">Cancel</button>
-                                                  </div>
-                                                </div>
-                                              </form>
-                                          
+                                                <form id="accountAdd" style="display: none;">
+                                                    <div class="p-1 mb-1">
+                                                        <h5 class="fw-bolder">Account Link </h5>
+                                                    </div>
+                                                    <div class="row mb-3">
 
-                                            <div class="d-flex justify-content-center">
-                                                <button
-                                                    class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover " id="referanceAddBTN">
-                                                    <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
-                                                    Add Reference
-                                                </button>
+                                                        <div class="col-md-4">
+                                                            <label for="acount" class="form-label">Choose
+                                                                Account</label>
+                                                            <select class="form-select" id="account">
+                                                                <option selected>Facebook</option>
+                                                                <option value="beginner">LinkedIn</option>
+                                                                <option value="intermediate">GitHub</option>
+                                                                <option value="advanced">YouTube</option>
+                                                                <option value="fluent">Others</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="col-md-8">
+                                                            <label for="url" class="form-label">URL</label>
+                                                            <input type="text" class="form-control" id="url"
+                                                                placeholder="Enter URL">
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                    <div class="row p-2">
+                                                        <div class="col-md-12">
+
+                                                            <button type="submit" class="btn btn-success">Save</button>
+                                                            <button type="button" class="btn btn-secondary"
+                                                                id="canceladdbtn">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+
+                                                <div class="d-flex justify-content-center">
+                                                    <button
+                                                        class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover"
+                                                        id="linkAccountbtn">
+                                                        <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
+                                                        Add Link
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    References
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row justify-content-lg-between mb-5">
+                                        <div class="col-12">
+                                            <div class="">
+                                                <div class="text-center" id="referenceSummary">
+                                                    <i class="fa-solid fa-inbox fa-2xl" style="color: #04710b;"></i>
+                                                    <p class="mt-4">
+                                                        Currently no data exists! Please click on the following button
+                                                        to add your <br>reference.</p>
+                                                </div>
+
+                                                <form class="" id="referenceAdd" style="display: none;">
+                                                    <div class="p-1 mb-1">
+                                                        <h5 class="fw-bolder">Reference </h5>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-6">
+                                                            <label for="name" class="form-label">Name</label>
+                                                            <input type="text" class="form-control" id="name"
+                                                                placeholder="Enter Name">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="designation"
+                                                                class="form-label">Designation</label>
+                                                            <input type="text" class="form-control" id="designation"
+                                                                placeholder="Enter Designation">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-6">
+                                                            <label for="organization"
+                                                                class="form-label">Organization</label>
+                                                            <input type="text" class="form-control" id="organization"
+                                                                placeholder="Enter Organization">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="email" class="form-label">Email</label>
+                                                            <input type="email" class="form-control" id="email"
+                                                                placeholder="Enter Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <div class="col-md-6">
+                                                            <label for="relation" class="form-label">Relation</label>
+                                                            <select class="form-select" id="relation">
+                                                                <option selected>Relative</option>
+                                                                <option value="father">Family Friend</option>
+                                                                <option value="mother">Academic</option>
+                                                                <option value="sibling">Professional</option>
+                                                                <option value="spouse">Others</option>
+                                                                <!-- Add more options as needed -->
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="mobile" class="form-label">Mobile</label>
+                                                            <input type="text" class="form-control" id="mobile"
+                                                                placeholder="Enter Mobile Number">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="row mb-3">
+
+                                                        <div class="col-md-6">
+                                                            <label for="phoneOff" class="form-label">Phone (Off)</label>
+                                                            <input type="text" class="form-control" id="phoneOff"
+                                                                placeholder="Enter Office Phone Number">
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <label for="phoneRes" class="form-label">Phone (Res)</label>
+                                                            <input type="text" class="form-control" id="phoneRes"
+                                                                placeholder="Enter Residential Phone Number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-3">
+
+                                                        <div class="col-md-6">
+                                                            <label for="address" class="form-label">Address</label>
+                                                            <textarea type="text" class="form-control" id="address"
+                                                                rows="3" placeholder="Enter Address"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Add the rest of the form fields here -->
+                                                    <div class="row p-1">
+                                                        <div class="col-md-12">
+
+                                                            <button type="submit" class="btn btn-success">Save</button>
+                                                            <button type="button" class="btn btn-secondary"
+                                                                id="referanceCancelBtn">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+
+                                                <div class="d-flex justify-content-center">
+                                                    <button
+                                                        class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover "
+                                                        id="referanceAddBTN">
+                                                        <i class="fa-solid fa-plus fa-sm" style="color: #04710b;"></i>
+                                                        Add Reference
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -2176,7 +2213,6 @@
                     </div>
                 </div>
             </div>
-        </div>
 
             <!-- Accomplishment part -->
             <div class="tab-pane fade" id="pills-accomplishment" role="tabpanel"
@@ -2254,52 +2290,241 @@
 
                                                     <!-- Publications button -->
                                                     <div class="" id="publicationActiveForm">
-                                                        <div id="publicationForm">
-                                                            <form id="" style="display: none;">
-                                                                <div class="">
-                                                                    <h6 class="fw-bolder">Hello </h6>
 
+                                                        <form id="publicationForm" style="display: none;">
+                                                            <div class="">
+                                                                <h5 class="fw-bolder text-success">Publication <span
+                                                                        class="text-muted fw-bolder">(<span
+                                                                            class="font-italic">Max 5</span>)</span>
+                                                                </h5>
 
-                                                                    <div class="mb-3">
-                                                                        <label for="" class="form-label">Title<span
-                                                                                class="text-danger">*</span></label>
-                                                                        <input type="" class="form-control" id=""
-                                                                            aria-describedby="">
-                                                                    </div>
-                                                                    <div class="mb-3">
-                                                                        <label for="" class="form-label">URL</label>
-                                                                        <input type="" class="form-control" id=""
-                                                                            aria-describedby="">
-                                                                    </div>
-
-                                                                    <div class="mb-3">
-                                                                        <label for=""
-                                                                            class="form-label">Description<span
-                                                                                class="text-danger">*</span></label>
-                                                                        <div class="form-floating">
-                                                                            <textarea class="form-control"
-                                                                                placeholder="Leave a comment here"
-                                                                                id="floatingTextarea2"
-                                                                                style="height: 100px"></textarea>
-                                                                        </div>
-                                                                    </div>
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Title<span
+                                                                            class="text-danger">*</span></label>
+                                                                    <input type="" class="form-control" id=""
+                                                                        aria-describedby="">
                                                                 </div>
 
-                                                                <!-- Add the rest of the form fields here -->
-                                                                <div class="mb-4">
-                                                                    <button type="submit"
-                                                                        class="btn btn-success">Save</button>
-                                                                    <button type="button" class="btn btn-secondary"
-                                                                        id="cancelPublicationBtn">Close</button>
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Issued On</label>
+                                                                    <input type="date" class="form-control" id=""
+                                                                        aria-describedby="">
                                                                 </div>
-                                                            </form>
-                                                            <button
-                                                                class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover"
-                                                                type="button" id="addPublicationBtn">
-                                                                <i class="fa-solid fa-plus fa-sm"
-                                                                    style="color: #04710b;"></i> Publication
-                                                            </button>
-                                                        </div>
+
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">URL</label>
+                                                                    <input type="" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Description<span
+                                                                            class="text-danger">*</span></label>
+                                                                    <div class="form-floating">
+                                                                        <textarea class="form-control"
+                                                                            placeholder="Leave a comment here"
+                                                                            id="floatingTextarea2"
+                                                                            style="height: 100px"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- Add the rest of the form fields here -->
+                                                            <div class="mb-4">
+                                                                <button type="submit"
+                                                                    class="btn btn-success">Save</button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    id="cancelPublicationBtn">Close</button>
+                                                            </div>
+                                                        </form>
+                                                        <button
+                                                            class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover"
+                                                            type="button" id="addPublicationsBtn">
+                                                            <i class="fa-solid fa-plus fa-sm"
+                                                                style="color: #04710b;"></i> Publication
+                                                        </button>
+
+                                                    </div>
+
+                                                    <!-- Awards/ Honors button -->
+                                                    <div class="" id="awardActiveForm">
+
+                                                        <form id="awardForm" style="display: none;">
+                                                            <div class="">
+                                                                <h5 class="fw-bolder text-success">Awards/Honors <span
+                                                                        class="text-muted fw-bolder">(<span
+                                                                            class="font-italic">Max 5</span>)</span>
+                                                                </h5>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Title<span
+                                                                            class="text-danger">*</span></label>
+                                                                    <input type="" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Issued On</label>
+                                                                    <input type="date" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">URL</label>
+                                                                    <input type="" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Description<span
+                                                                            class="text-danger">*</span></label>
+                                                                    <div class="form-floating">
+                                                                        <textarea class="form-control"
+                                                                            placeholder="Leave a comment here"
+                                                                            id="floatingTextarea2"
+                                                                            style="height: 100px"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- Add the rest of the form fields here -->
+                                                            <div class="mb-4">
+                                                                <button type="submit"
+                                                                    class="btn btn-success">Save</button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    id="cancelAwardBtn">Close</button>
+                                                            </div>
+                                                        </form>
+                                                        <button
+                                                            class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover"
+                                                            type="button" id="addAwardsBtn">
+                                                            <i class="fa-solid fa-plus fa-sm"
+                                                                style="color: #04710b;"></i> Awards/Honors
+                                                        </button>
+
+                                                    </div>
+
+
+                                                    <!-- Projects -->
+
+                                                    <div class="" id="projectActiveForm">
+
+                                                        <form id="projectForm" style="display: none;">
+                                                            <div class="">
+                                                                <h5 class="fw-bolder text-success">Projects <span
+                                                                        class="text-muted fw-bolder">(<span
+                                                                            class="font-italic">Max 5</span>)</span>
+                                                                </h5>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Title<span
+                                                                            class="text-danger">*</span></label>
+                                                                    <input type="" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Issued On</label>
+                                                                    <input type="date" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">URL</label>
+                                                                    <input type="" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Description<span
+                                                                            class="text-danger">*</span></label>
+                                                                    <div class="form-floating">
+                                                                        <textarea class="form-control"
+                                                                            placeholder="Leave a comment here"
+                                                                            id="floatingTextarea2"
+                                                                            style="height: 100px"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- Add the rest of the form fields here -->
+                                                            <div class="mb-4">
+                                                                <button type="submit"
+                                                                    class="btn btn-success">Save</button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    id="cancelProjectBtn">Close</button>
+                                                            </div>
+                                                        </form>
+                                                        <button
+                                                            class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover"
+                                                            type="button" id="addProjectBtn">
+                                                            <i class="fa-solid fa-plus fa-sm"
+                                                                style="color: #04710b;"></i>Projects
+                                                        </button>
+
+                                                    </div>
+
+                                                    <!-- Others -->
+
+                                                    <div class="" id="othersActiveForm">
+
+                                                        <form id="othersForm" style="display: none;">
+                                                            <div class="">
+                                                                <h5 class="fw-bolder text-success">Others <span
+                                                                        class="text-muted fw-bolder">(<span
+                                                                            class="font-italic">Max 5</span>)</span>
+                                                                </h5>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Title<span
+                                                                            class="text-danger">*</span></label>
+                                                                    <input type="" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Issued On</label>
+                                                                    <input type="date" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">URL</label>
+                                                                    <input type="" class="form-control" id=""
+                                                                        aria-describedby="">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="" class="form-label">Description<span
+                                                                            class="text-danger">*</span></label>
+                                                                    <div class="form-floating">
+                                                                        <textarea class="form-control"
+                                                                            placeholder="Leave a comment here"
+                                                                            id="floatingTextarea2"
+                                                                            style="height: 100px"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- Add the rest of the form fields here -->
+                                                            <div class="mb-4">
+                                                                <button type="submit"
+                                                                    class="btn btn-success">Save</button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    id="cancelOthersBtn">Close</button>
+                                                            </div>
+                                                        </form>
+                                                        <button
+                                                            class="text-success border border-3 border-success py-2 px-3 w-auto bg-white zoom-on-hover"
+                                                            type="button" id="addOthersBtn">
+                                                            <i class="fa-solid fa-plus fa-sm"
+                                                                style="color: #04710b;"></i> Others
+                                                        </button>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -2370,58 +2595,89 @@
 
         });
     </script>
-     <!-- For Language -->
-     <script>
-        document.getElementById("addLanguagebtn").addEventListener("click", function() {
-        document.getElementById("languageAdd").style.display = "block";
-        document.getElementById("languageSummary").style.display = "none";
+    <!-- For Language -->
+    <script>
+        document.getElementById("addLanguagebtn").addEventListener("click", function () {
+            document.getElementById("languageAdd").style.display = "block";
+            document.getElementById("languageSummary").style.display = "none";
         });
-    
-        document.getElementById("cancelbtn").addEventListener("click", function() {
-        document.getElementById("languageAdd").style.display = "none";
-        document.getElementById("languageSummary").style.display = "block";
+
+        document.getElementById("cancelbtn").addEventListener("click", function () {
+            document.getElementById("languageAdd").style.display = "none";
+            document.getElementById("languageSummary").style.display = "block";
         });
     </script>
 
     <!-- For Account -->
 
     <script>
-        document.getElementById("linkAccountbtn").addEventListener("click", function() {
-        document.getElementById("accountAdd").style.display = "block";
-        document.getElementById("accountSummary").style.display = "none";
+        document.getElementById("linkAccountbtn").addEventListener("click", function () {
+            document.getElementById("accountAdd").style.display = "block";
+            document.getElementById("accountSummary").style.display = "none";
         });
-    
-        document.getElementById("canceladdbtn").addEventListener("click", function() {
-        document.getElementById("accountAdd").style.display = "none";
-        document.getElementById("accountSummary").style.display = "block";
+
+        document.getElementById("canceladdbtn").addEventListener("click", function () {
+            document.getElementById("accountAdd").style.display = "none";
+            document.getElementById("accountSummary").style.display = "block";
         });
     </script>
 
     <!-- For Reference -->
     <script>
-        document.getElementById("referanceAddBTN").addEventListener("click", function() {
-          document.getElementById("referenceAdd").style.display = "block";
-          document.getElementById("referenceSummary").style.display = "none";
+        document.getElementById("referanceAddBTN").addEventListener("click", function () {
+            document.getElementById("referenceAdd").style.display = "block";
+            document.getElementById("referenceSummary").style.display = "none";
         });
-    
-        document.getElementById("referanceCancelBtn").addEventListener("click", function() {
-          document.getElementById("referenceAdd").style.display = "none";
-          document.getElementById("referenceSummary").style.display = "block";
+
+        document.getElementById("referanceCancelBtn").addEventListener("click", function () {
+            document.getElementById("referenceAdd").style.display = "none";
+            document.getElementById("referenceSummary").style.display = "block";
         });
     </script>
     <!-- For Accomplishment  -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
+            // For Portfolio
             var addPortfolioBtn = document.getElementById("addPortfolioBtn");
             var portfolioForm = document.getElementById("portfolioForm");
             var cancelPortfolioBtn = document.getElementById("cancelPortfolioBtn");
-            //var addPublicationsBtn = document.getElementById("addPublicationsBtn");
-            var accomplishmentText = document.getElementById("accomplishmentText");
             var activeForm = document.getElementById("activeForm");
-            var publicationForm = document.getElementById("publicationForm");
 
+            var accomplishmentText = document.getElementById("accomplishmentText");
+            // For Publications
+            var addPublicationsBtn = document.getElementById("addPublicationsBtn");
+            var publicationActiveForm = document.getElementById("publicationActiveForm")
+            var publicationForm = document.getElementById("publicationForm");
+            var cancelPublicationBtn = document.getElementById("cancelPublicationBtn");
+
+            // For Awards/ Honors
+
+            var awardActiveForm = document.getElementById("awardActiveForm");
+            var awardForm = document.getElementById("awardForm");
+            var cancelAwardBtn = document.getElementById("cancelAwardBtn");
+            var addAwardsBtn = document.getElementById("addAwardsBtn");
+
+            // For Projects
+
+            var projectActiveForm = document.getElementById("projectActiveForm");
+            var projectForm = document.getElementById("projectForm");
+            var cancelProjectBtn = document.getElementById("cancelProjectBtn");
+            var addProjectBtn = document.getElementById("addProjectBtn");
+
+            // For Others
+
+            var othersActiveForm = document.getElementById("othersActiveForm");
+            var othersForm = document.getElementById("othersForm");
+            var cancelOthersBtn = document.getElementById("cancelOthersBtn");
+            var addOthersBtn = document.getElementById("addOthersBtn");
+
+            // For Portfolio
             addPortfolioBtn.addEventListener("click", function () {
                 addPortfolioBtn.style.display = "none";
+                addPublicationsBtn.style.display = "none";
+                addAwardsBtn.style.display = "none";
+                addProjectBtn.style.display = "none";
+                addOthersBtn.style.display = "none";
                 portfolioForm.style.display = "block";
                 activeForm.style.width = "100%";
                 accomplishmentText.style.display = "none";
@@ -2430,16 +2686,118 @@
 
             cancelPortfolioBtn.addEventListener("click", function () {
                 addPortfolioBtn.style.display = "block";
+                addPublicationsBtn.style.display = "block";
+                addAwardsBtn.style.display = "block"
+                addProjectBtn.style.display = "block";
+                addOthersBtn.style.display = "block";
                 portfolioForm.style.display = "none";
                 accomplishmentText.style.display = "block";
                 activeForm.style.width = "";
+
+            });
+
+            // For Publications
+            addPublicationsBtn.addEventListener("click", function () {
+                addPublicationsBtn.style.display = "none";
+                addPortfolioBtn.style.display = "none";
+                addAwardsBtn.style.display = "none";
+                addProjectBtn.style.display = "none";
+                addOthersBtn.style.display = "none";
                 publicationForm.style.display = "block";
+                publicationActiveForm.style.width = "100%";
+                accomplishmentText.style.display = "none";
+                portfolioForm.style.display = "none";
+            });
+
+            cancelPublicationBtn.addEventListener("click", function () {
+                addPortfolioBtn.style.display = "block";
+                addPublicationsBtn.style.display = "block";
+                addAwardsBtn.style.display = "block"
+                addProjectBtn.style.display = "block";
+                addOthersBtn.style.display = "block";
+                publicationForm.style.display = "none";
+                accomplishmentText.style.display = "block";
+                publicationActiveForm.style.width = "";
+
+            });
+
+            // For Awards/ Honors
+            addAwardsBtn.addEventListener("click", function () {
+                addPublicationsBtn.style.display = "none";
+                addPortfolioBtn.style.display = "none";
+                addAwardsBtn.style.display = "none";
+                addProjectBtn.style.display = "none";
+                addOthersBtn.style.display = "none";
+                awardForm.style.display = "block";
+                awardActiveForm.style.width = "100%";
+                accomplishmentText.style.display = "none";
+                // portfolioForm.style.display = "none";
+            });
+
+            cancelAwardBtn.addEventListener("click", function () {
+                addPortfolioBtn.style.display = "block";
+                addPublicationsBtn.style.display = "block";
+                addAwardsBtn.style.display = "block"
+                addProjectBtn.style.display = "block";
+                addOthersBtn.style.display = "block";
+                awardForm.style.display = "none";
+                accomplishmentText.style.display = "block";
+                awardActiveForm.style.width = "";
+
+            });
+
+
+            // Projects
+            addProjectBtn.addEventListener("click", function () {
+                addPublicationsBtn.style.display = "none";
+                addPortfolioBtn.style.display = "none";
+                addAwardsBtn.style.display = "none";
+                addProjectBtn.style.display = "none";
+                addOthersBtn.style.display = "none";
+                projectForm.style.display = "block";
+                projectActiveForm.style.width = "100%";
+                accomplishmentText.style.display = "none";
+                // portfolioForm.style.display = "none";
+            });
+
+            cancelProjectBtn.addEventListener("click", function () {
+                addPortfolioBtn.style.display = "block";
+                addPublicationsBtn.style.display = "block";
+                addAwardsBtn.style.display = "block"
+                addProjectBtn.style.display = "block";
+                addOthersBtn.style.display = "block";
+                projectForm.style.display = "none";
+                accomplishmentText.style.display = "block";
+                projectActiveForm.style.width = "";
+
+            });
+
+            // For Others
+            addOthersBtn.addEventListener("click", function () {
+                addPublicationsBtn.style.display = "none";
+                addPortfolioBtn.style.display = "none";
+                addAwardsBtn.style.display = "none";
+                addProjectBtn.style.display = "none";
+                addOthersBtn.style.display = "none";
+                othersForm.style.display = "block";
+                othersActiveForm.style.width = "100%";
+                accomplishmentText.style.display = "none";
+                // portfolioForm.style.display = "none";
+            });
+
+            cancelOthersBtn.addEventListener("click", function () {
+                addPortfolioBtn.style.display = "block";
+                addPublicationsBtn.style.display = "block";
+                addAwardsBtn.style.display = "block"
+                addProjectBtn.style.display = "block";
+                addOthersBtn.style.display = "block";
+                othersForm.style.display = "none";
+                accomplishmentText.style.display = "block";
+                othersActiveForm.style.width = "";
+
             });
         });
     </script>
-
-
-
 
 </body>
 
